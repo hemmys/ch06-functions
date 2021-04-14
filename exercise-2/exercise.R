@@ -8,9 +8,17 @@
 ## and tells if all numbers are even
 ## Hint: use modulo operator %% and check out 'all' function
 
+allEven <- function(x) {
+  if(all(x %% 2 == 0)) {
+    cat("all even")
+  } else {
+    cat("at least one odd")
+    }
+}
 
 ## Pass a vector to test if it works correctly
 
+allEven(c(1, 2, 3, 5, 6, 8))
 
 ## Write a function that takes a vector of numbers as argument
 ## and tells if among all the numbers there is at least one

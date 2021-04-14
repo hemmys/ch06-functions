@@ -30,7 +30,6 @@ height.in.feet <- 4.11
 
 height.in.meters <- FeetToMeters(4.11)
 
-
 ## ------------------------------ challenge ------------------------------
 ## create a function that converts height from meters to feet and inches
 ## Hint: use operators %% (modulo) and %/% (integer division)
