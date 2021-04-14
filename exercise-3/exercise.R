@@ -22,8 +22,10 @@ compareStrings <- function(str1, str2) {
 ## to confirm that it works. Make sure to check all 3 conditions1
 
 compareStrings(c("hot"), c("cheetos"))
+# Your second vector is longer by 4 characters
 
 compareStrings(c("apple"), c("pie"))
+# Your first string is longer by 2 characters
 
 ## Define a function `twiceLong` that takes in two character strings, and 
 ## returns whether or not (e.g., a boolean) the length of one argument
@@ -42,8 +44,10 @@ twiceLong <- function(str1, str2) {
 # as long, as well as when neither are!
 
 twiceLong(c("pig"), c("piglet"))
+# TRUE
 
-twiceLong(c("horse"), c("unicorn"))
+twiceLong(c("dog"), c("unicorn"))
+# FALSE
 
 ## Create a function 'censor' that replaces expletives with '***' in a sentence.
 ## It should replace at least two expletives: "moron" and "damned" by '***'.
@@ -59,5 +63,8 @@ censor <- function(str) {
 ## Show that it works.
 
 censor(c("you built like a damned peanut-brained moron"))
+# you built like a *** peanut-brained ***
 
-censor(c("your forehead is so big you ugly moron"))
+
+censor(c("your forehead is massive you ugly moron"))
+# your *** is massive you ugly ***
