@@ -21,10 +21,10 @@ compareStrings <- function(str1, str2) {
 ## Call your `describe_difference` function by passing it different length strings
 ## to confirm that it works. Make sure to check all 3 conditions1
 
-compareStrings(c("hot"), c("cheetos"))
+compareStrings("hot", "cheetos")
 # Your second vector is longer by 4 characters
 
-compareStrings(c("apple"), c("pie"))
+compareStrings("apple", "pie")
 # Your first string is longer by 2 characters
 
 ## Define a function `twiceLong` that takes in two character strings, and 
@@ -43,10 +43,10 @@ twiceLong <- function(str1, str2) {
 # to confirm that it works. Make sure to check when _either_ argument is twice
 # as long, as well as when neither are!
 
-twiceLong(c("pig"), c("piglet"))
+twiceLong("pig", "piglet")
 # TRUE
 
-twiceLong(c("dog"), c("unicorn"))
+twiceLong("dog", "unicorn")
 # FALSE
 
 ## Create a function 'censor' that replaces expletives with '***' in a sentence.
@@ -62,9 +62,9 @@ censor <- function(str) {
 ## Call your function with a sentency that contains expletives.
 ## Show that it works.
 
-censor(c("you built like a damned peanut-brained moron"))
+censor("you built like a damned peanut-brained moron")
 # you built like a *** peanut-brained ***
 
 
-censor(c("your forehead is massive you ugly moron"))
+censor("your forehead is massive you ugly moron")
 # your *** is massive you ugly ***
